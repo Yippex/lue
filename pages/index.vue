@@ -34,7 +34,7 @@
     <section class="md:h-[70vh]  pt-5">
       <div class="flex  flex-col justify-center items-center pb-5">
         <div class=" w-11/12 md:px-24 md:py-20 py-10">
-          <p class="md:text-2xl font-semibold">
+          <p class="md:text-2xl font-medium">
             Let’s Use Entrepreneurship is aimed to be a leading catalyst in
             driving economic and socio-economic growth in Africa. We are geared
             towards raising exceptional entrepreneurs and leaders that will
@@ -47,6 +47,11 @@
         </div>
       </div>
     </section>
+  <section class="md:h-[70vh] pt-5">
+    <div class="flex item-center justify-between md:px-24 ">
+
+    </div>
+  </section>
   </div>
 </template>
 <style scoped>

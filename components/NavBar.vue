@@ -13,16 +13,16 @@
     <div class="flex items-center justify-between h-20 md:px-24 px-4 ">
       <div>
         <NuxtLink to="/">
-          <img src="../assets/logo-black.24eb56ae.png" alt="" class="h-8">
+          <img src="../assets/lue.jpg" alt="" class="h-10">
         </NuxtLink>
       </div>
       <div class="lg:hidden">
         <button @click="toggleMenu">
           <!-- Replace the `hamburger-icon.png` with your hamburger icon -->
-          <img src="../assets/hamburger.svg" alt="Menu" class="h-8">
+          <img src="../assets/hamburger.svg" alt="Menu" class="h-9">
         </button>
       </div>
-      <nav class="hidden lg:flex items-center gap-20">
+      <nav class="hidden lg:flex items-center gap-28">
         <NuxtLink to="/about" class="hover:text-[#ffa440]">About</NuxtLink>
         <NuxtLink to="/about" class="hover:text-[#ffa440]">Blog</NuxtLink>
         <NuxtLink to="/about" class="hover:text-[#ffa440]">Contact</NuxtLink>
