@@ -4,7 +4,7 @@
   <div>
     <div class="md:h-[88vh] relative">
       <div
-        class="container flex flex-col md:flex-row gap-20 md:gap-4 justify-between items-center  px-4 md:px-24 py-10"
+        class="container flex flex-col md:flex-row gap-20 md:gap-4 justify-between items-center px-4 md:px-24 py-10"
       >
         <div class="md:w-1/2">
           <h1 class="text-2xl md:text-7xl font-bold">
@@ -31,9 +31,9 @@
         class="pt-1 bg-gradient-to-r from-[#ffa440] to-[#FF9542] absolute bottom-0 right-0 left-0"
       />
     </div>
-    <section class="md:h-[70vh]  pt-5">
-      <div class="flex  flex-col justify-center items-center pb-5">
-        <div class=" w-11/12 md:px-24 md:py-20 py-10">
+    <section class="md:h-[70vh] pt-5">
+      <div class="flex flex-col justify-center items-center pb-5">
+        <div class="w-11/12 md:px-24 md:py-20 py-10">
           <p class="md:text-2xl font-medium">
             Let’s Use Entrepreneurship is aimed to be a leading catalyst in
             driving economic and socio-economic growth in Africa. We are geared
@@ -42,16 +42,35 @@
             value via entrepreneurship
           </p>
         </div>
-        <div >
-          <button class="bg-[#ffa440] py-2 px-5 md:py-3 md:px-10 rounded-lg text-white font-semibold">Join</button>
+        <div>
+          <button
+            class="bg-[#ffa440] py-2 px-5 md:py-3 md:px-10 rounded-lg text-white font-semibold"
+          >
+            Join
+          </button>
         </div>
       </div>
     </section>
-  <section class="md:h-[70vh] pt-5">
-    <div class="flex item-center justify-between md:px-24 ">
+    <section class="md:h-[70vh] pt-5">
+      <div
+        class="container px-4 md:flex-row flex-col gap-20 py-10 flex item-center justify-between md:px-24"
+      >
+        <div class="md:w-1/2  flex items-center justify-center">
+          <p class="text-xl md:px-20">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            officiis sapiente, assumenda sit voluptates rerum labore voluptatum
+            eos distinctio dolorum autem, molestias beatae corporis tempore
+            suscipit eum ullam, enim ad?
+          </p>
+        </div>
 
-    </div>
-  </section>
+        <img
+          src="../assets/header-min.7649c879.jpg"
+          alt=""
+          class="w-[200px] md:w-[320px] h-auto object-cover border"
+        />
+      </div>
+    </section>
   </div>
 </template>
 <style scoped>
