@@ -9,8 +9,8 @@
 </script>
 
 <template>
-  <div class="w-full">
-    <div class="flex items-center justify-between h-20 md:px-24 px-4">
+  <div class="w-full bg-transparent ">
+    <div class="flex items-center justify-between h-20 md:px-24 px-4 ">
       <div>
         <NuxtLink to="/">
           <img src="../assets/logo-black.24eb56ae.png" alt="" class="h-8">
