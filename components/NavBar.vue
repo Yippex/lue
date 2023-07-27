@@ -9,7 +9,7 @@
 </script>
 
 <template>
-  <div class="w-full bg-transparent ">
+  <div class="w-full  ">
     <div class="flex items-center justify-between h-20 md:px-24 px-4 ">
       <div>
         <NuxtLink to="/">
@@ -31,7 +31,7 @@
     </div>
 
     <!-- Hamburger menu -->
-    <div v-if="isMenuOpen" class="lg:hidden absolute top-20 left-0 w-full bg-white shadow">
+    <div v-if="isMenuOpen" class="lg:hidden absolute top-20 left-0 w-full bg-white z-40 shadow">
       <div class="flex flex-col gap-4 p-4">
         <NuxtLink to="/about" class="hover:text-[#ffa440]">About</NuxtLink>
         <NuxtLink to="/about" class="hover:text-[#ffa440]">Blog</NuxtLink>
